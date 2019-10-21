@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <title>CSS Stylesheets with Relative Paths</title>
     </head>
 
@@ -23,17 +23,17 @@
         <div class="container">
             <h2>Contact</h2>
             <hr>
-            <form action="#action_page.html" onclick="alert('Your message send successfully!')">
+            <form action="#action_page.html">
                 Name:<br>
-                <input type="text" name="name" value="FirstName + LastName">
+                <input type="text" name="name" placeholder="Your first name and last name">
                 <br>
                 Email:<br>
-                <input type="text" name="email" value="example@gmail.com">
+                <input type="text" name="email" placeholder="example@gmail.com">
                 <br>
                 Message:<br>
-                <input type="text" name="message" value="Please enter your message...">
+                <input type="text" name="message" placeholder="Please enter your message...">
                 <br><br>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" onclick="alert('Your message send successfully!')">
             </form> 
         </div>
 
