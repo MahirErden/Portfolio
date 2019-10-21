@@ -1,15 +1,48 @@
-html, body {
+body {
+    background-image: url('C:\Users\mahir\Desktop\Portfolio\assets\images\gravel.jpg');
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+
+.container{
+    background-color: #ffffff;
+    width: 960px;
     height: 100%;
-    margin: 10;
-  }
-  .content {
-    min-height: 100%;
-  }
-  .content-inside {
-    padding: 20px;
-    padding-bottom: 50px;
-  }
-  .footer {
-    height: 50px;
-    margin-top: -50px;
-  }
+    position: relative;
+    align-content: center;
+}
+
+.header-right{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:red;
+}
+
+hr{
+    width: 100%;
+}
+
+.footer {
+    font-size: 8px;
+    text-align: center;
+    vertical-align: text-bottom;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    background-color: #666666;
+    color: white;
+    border-top: 8px solid #4aaaa5;
+    padding-top:20px;
+}
